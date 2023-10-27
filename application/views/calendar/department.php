@@ -11,7 +11,7 @@
 <div class="row-fluid">
     <div class="span12">
 
-<h2><?php echo lang('calendar_department_title');?> &nbsp;<?php echo $help;?></h2>
+<h2><?php echo lang('calendar_department_title');?> </h2>
 
 <?php echo lang('calendar_department_description');?>
 

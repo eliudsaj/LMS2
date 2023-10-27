@@ -457,9 +457,9 @@ $config['proxy_ips'] = '';
 
 //____________________________________________________________________________
 //default email from
-$config['from_mail'] = 'do.not@reply.me';
-$config['from_name'] = 'Jorani';
-$config['subject_prefix'] = '[Jorani] ';
+$config['from_mail'] = 'leave@munshiram.com';
+$config['from_name'] = 'LMS';
+$config['subject_prefix'] = '[LMS] ';
 
 //____________________________________________________________________________
 //User management
@@ -515,10 +515,10 @@ $config['fonts'] =
 
 //____________________________________________________________________________
 // Hide/Disable features
-$config['disable_overtime'] = FALSE; //Set this value to TRUE if you want to hide the menu entries related to overtime
-$config['hide_global_cals_to_users'] = FALSE; //Set this value to TRUE if you want to hide global calendars (global/tabular) to users
-$config['disable_department_calendar'] = FALSE; //Set this value to TRUE in order to disable the menu entry 'departement'
-$config['disable_workmates_calendar'] = FALSE; //Set this value to TRUE in order to disable the menu entry 'my workmates'
+$config['disable_overtime'] = TRUE; //Set this value to TRUE if you want to hide the menu entries related to overtime
+$config['hide_global_cals_to_users'] = TRUE; //Set this value to TRUE if you want to hide global calendars (global/tabular) to users
+$config['disable_department_calendar'] = TRUE; //Set this value to TRUE in order to disable the menu entry 'departement'
+$config['disable_workmates_calendar'] = TRUE; //Set this value to TRUE in order to disable the menu entry 'my workmates'
 
 //____________________________________________________________________________
 //Google analytics tracking code (if empty, the Javascript tracking code will be desactivated).
@@ -561,7 +561,7 @@ $config['saml_enabled'] = FALSE;
 
 //____________________________________________________________________________
 //Enable public ICS feeds (global calendar, contract, personal information)
-$config['ics_enabled'] = TRUE;
+$config['ics_enabled'] = FALSE;
 $config['default_timezone'] = 'Africa/Nairobi';
 $config['legacy_feeds'] = FALSE;    //Maintain the unsecure URLs for ICS feeds
 

@@ -1,9 +1,9 @@
 <?php
 /**
  * This view displays the diagnotic of confiuration and what was entered by employees (requests, etc.)
- * @copyright  Copyright (c) 2014-2023 Benjamin BALET
+ * @copyright  Copyright (c) 2014-2023 
  * @license      http://opensource.org/licenses/AGPL-3.0 AGPL-3.0
- * @link            https://github.com/bbalet/jorani
+ * @link            https://github.com/bbalet/LMS
  * @since         0.4.6
  */
 ?>

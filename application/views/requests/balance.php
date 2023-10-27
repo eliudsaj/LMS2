@@ -11,7 +11,7 @@
 <div class="row-fluid">
     <div class="span12">
 
-        <h2><?php echo lang('requests_balance_title');?>  &nbsp;<?php echo $help;?></h2>
+        <h2><?php echo lang('requests_balance_title');?> </h2>
 
         <p><?php echo lang('requests_balance_description');?></p>
 

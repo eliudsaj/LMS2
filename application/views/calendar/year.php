@@ -12,7 +12,7 @@ $currentMonth = (int)date('m');
 $currentDay = (int)date('d');
 ?>
 
-<h2><?php echo lang('calendar_year_title');?>&nbsp;<span class="muted">(<?php echo $employee_name;?>)</span>&nbsp;<?php echo $help;?></h2>
+<h2><?php echo lang('calendar_year_title');?>&nbsp;<span class="muted">(<?php echo $employee_name;?>)</span></h2>
 
 <div class="row-fluid">
     <div class="span4">

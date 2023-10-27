@@ -62,3 +62,4 @@ Use bbalet / bbalet for login / password.
 
 * Github and Google group users for their ideas and tests.
 * All participants of the Transifex project.
+# lms_final

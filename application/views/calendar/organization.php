@@ -8,7 +8,7 @@
  */
 ?>
 
-<h2><?php echo lang('calendar_organization_title');?><?php echo $help;?></h2>
+<h2><?php echo lang('calendar_organization_title');?></h2>
 
 <div class="row-fluid">
     <div class="span5">

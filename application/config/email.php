@@ -3,11 +3,11 @@
 $config['useragent']        = 'PHPMailer';              // Mail engine switcher: 'CodeIgniter' or 'PHPMailer'
 $config['protocol']         = 'smtp';                   // 'mail', 'sendmail', or 'smtp'
 $config['mailpath']         = '/usr/sbin/sendmail';
-$config['smtp_host']        = 'localhost';
+$config['smtp_host']        = 'mailsvr.munshiram.com';
 $config['smtp_auth']        = null;                     // Whether to use SMTP authentication, boolean TRUE/FALSE. If this option is omited or if it is NULL, then SMTP authentication is used when both $config['smtp_user'] and $config['smtp_pass'] are non-empty strings.
-$config['smtp_user']        = '';
-$config['smtp_pass']        = '';
-$config['smtp_port']        = 25;
+$config['smtp_user']        = 'leave@munshiram.com';
+$config['smtp_pass']        = 'S@d59sEuDG';
+$config['smtp_port']        = 587;
 $config['smtp_timeout']     = 30;                       // (in seconds)
 $config['smtp_crypto']      = '';                       // '' or 'tls' or 'ssl'
 $config['smtp_debug']       = 0;                        // PHPMailer's SMTP debug info level: 0 = off, 1 = commands, 2 = commands and data, 3 = as 2 plus connection status, 4 = low level data output.

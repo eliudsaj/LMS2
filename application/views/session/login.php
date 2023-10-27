@@ -1,9 +1,9 @@
 <?php
 /**
  * This view displays the login form. Its layout differs from other pages of the application.
- * @copyright  Copyright (c) 2014-2023 Benjamin BALET
+ * @copyright  Copyright (c) 2014-2023
  * @license    http://opensource.org/licenses/AGPL-3.0 AGPL-3.0
- * @link       https://github.com/bbalet/jorani
+ * @link       https://github.com/bbalet/LMS2
  * @since      0.1.0
  */
 ?>
@@ -51,20 +51,20 @@
     <div class="span6 form-box">
         <div class="row-fluid">
             <div class="span6" style="height:100%;">
-                <div class="row-fluid">
-                    <div class="span12">
-                        <img src="<?php echo base_url();?>assets/images/logo_simple.png">
-                    </div>
-                </div>
                 <div class="row-fluid"><div class="span12">&nbsp;</div></div>
                 <div class="row-fluid">
                     <div class="span12">
                         <span style="font-size: 250%; font-weight: bold; line-height: 100%;"><center><?php echo lang('Leave Management System');?></center></span>
                     </div>
                 </div>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <img src="<?php echo base_url();?>assets/images/lms2.png">
+                    </div>
+                </div>
             </div>
             <div class="span6">
-                <h2><?php echo lang('session_login_title');?><?php echo $help;?></h2>
+                <h2><?php echo lang('session_login_title');?><!--<?php echo $help;?></h2>-->
                 <?php echo $flash_partial_view;?>
                 <?php echo validation_errors(); ?>
                 <?php

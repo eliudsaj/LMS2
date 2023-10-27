@@ -1,9 +1,9 @@
 <?php
 /**
  * This view displays a portion of the configuration file (the part containing the application parameters).
- * @copyright  Copyright (c) 2014-2023 Benjamin BALET
+ * @copyright  Copyright (c) 2014-2023 
  * @license      http://opensource.org/licenses/AGPL-3.0 AGPL-3.0
- * @link            https://github.com/bbalet/jorani
+ * @link            https://github.com/bbalet/LMS2
  * @since         0.4.3
  */
 ?>

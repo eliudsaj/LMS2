@@ -11,7 +11,7 @@
 <div class="row-fluid">
     <div class="span12">
 
-        <h2><?php echo lang('leaves_summary_title');?><?php echo $help;?></h2>
+        <h2><?php echo lang('leaves_summary_title');?></h2>
 
         <p><?php echo lang('leaves_summary_date_field');?>&nbsp;
             <input type="text" id="refdate" />

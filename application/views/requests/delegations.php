@@ -12,7 +12,7 @@
 <div class="row-fluid">
     <div class="span12">
 
-<h2><?php echo lang('requests_delegations_title');?> <span class="muted">(<?php echo $name; ?>)</span>  &nbsp;<?php echo $help;?></h2>
+<h2><?php echo lang('requests_delegations_title');?> <span class="muted">(<?php echo $name; ?>)</span> </h2>
 
 <div class="row-fluid"><div class="span12"><?php echo lang('requests_delegations_description');?></div></div>
 
